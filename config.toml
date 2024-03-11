@@ -1,0 +1,4 @@
+baseURL = 'http://opentrng.org/'
+languageCode = 'en-us'
+title = 'OpenTRNG'
+theme = 'hugo-book'
