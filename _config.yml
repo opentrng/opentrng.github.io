@@ -1,0 +1,41 @@
+title: OpenTRNG
+url: "https://opentrng.org"
+repository: "opentrng/ptrng"
+description: "This project is dedicated to delivering the community open-source implementations of reference Physical TRNG."
+breadcrumbs: true
+show_date: false
+search: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-7XE6GB2SY9"
+    anonymize_ip: false
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/opentrng"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/florian-pebay-peyroula/"
+    - label: "CEA-Leti"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cea-leti.fr"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+
+lunr:
+  search_within_pages: true
+
+defaults:
+  - scope:
+      path: "docs"
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"

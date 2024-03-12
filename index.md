@@ -1,4 +1,18 @@
-# Introduction to OpenTRNG
+---
+title: "OpenTRNG"
+layout: single
+toc: true
+# sidebar:
+#   nav: "docs"
+---
+
+> The **OpenTRNG** project documentation and source-code will be released soon!
+{: .notice--info}
+
+> Follow us on [LinkedIn](https://www.linkedin.com/in/florian-pebay-peyroula/) to stay informed.
+{: .notice--success}
+
+# Introduction
 
 Welcome to **OpenTRNG**! This project is dedicated to delivering the community open-source implementations of reference Physical True Random Number Generator (TRNG or PTRNG) based on ring oscillators. Through **OpenTRNG**, you have the ability to:
 
@@ -8,9 +22,6 @@ Welcome to **OpenTRNG**! This project is dedicated to delivering the community o
 4. Analyze and evaluate their outcomes
 
 **OpenTRNG** is fully compatible with [OpenTitan](https://opentitan.org), our PTRNG can be used as input for OpenTitan's hardware IP blocks. Please find more information in the hardware section.
-
-> [!NOTE]
-> The **OpenTRNG** project will be released soon! Please stay tuned.
 
 # Why OpenTRNG?
 
