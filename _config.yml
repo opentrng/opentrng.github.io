@@ -1,4 +1,5 @@
-title: OpenTRNG
+title: "OpenTRNG"
+logo: "/assets/images/logo.png"
 url: "https://opentrng.org"
 repository: "opentrng/ptrng"
 description: "This project is dedicated to delivering the community open-source implementations of reference Physical TRNG."

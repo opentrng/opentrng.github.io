@@ -3,9 +3,13 @@ main:
     url: /
   # - title: "Documentation"
   #   url: /docs/
+  # - title: "About"
+  #   url: /docs/
+  # - title: "Contact"
+  #   url: /docs/
 
-# docs:
-#   - title: Documentation
+docs:
+  - title: Documentation
     # children:
     #   - title: "Quick-Start Guide"
     #     url: /docs/quick-start-guide/
@@ -15,3 +19,7 @@ main:
     #     url: /docs/installation/
     #   - title: "Upgrading"
     #     url: /docs/upgrading/
+#   - title: Source code
+    # children:
+    #   - title: "PTRNG"
+    #     url: /docs/quick-start-guide/
