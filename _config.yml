@@ -1,17 +1,12 @@
 title: "OpenTRNG"
 logo: "/assets/images/logo.png"
 url: "https://opentrng.org"
-repository: "opentrng/ptrng"
 description: "This project is dedicated to delivering the community open-source implementations of reference Physical TRNG."
+repository: "opentrng/ptrng"
+
 breadcrumbs: true
 show_date: false
 search: true
-
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-7XE6GB2SY9"
-    anonymize_ip: false
 
 footer:
   links:
@@ -25,18 +20,24 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://www.cea-leti.fr"
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
   - jekyll-feed
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 lunr:
   search_within_pages: true
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-7XE6GB2SY9"
+    anonymize_ip: false
+
 defaults:
   - scope:
-      path: "docs"
-      type: docs
+      path: ""
     values:
       sidebar:
-        nav: "docs"
+        nav: "sidebar"

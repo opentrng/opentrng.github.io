@@ -3,13 +3,15 @@ main:
     url: /
   # - title: "Documentation"
   #   url: /docs/
+  # - title: "Papers"
+  #   url: /papers/
   # - title: "About"
-  #   url: /docs/
+  #   url: /about/
   # - title: "Contact"
-  #   url: /docs/
+  #   url: /contact/
 
-docs:
-  - title: Documentation
+sidebar:
+  # - title: Documentation
     # children:
     #   - title: "Quick-Start Guide"
     #     url: /docs/quick-start-guide/
@@ -19,7 +21,10 @@ docs:
     #     url: /docs/installation/
     #   - title: "Upgrading"
     #     url: /docs/upgrading/
-#   - title: Source code
-    # children:
+  - title: Source code
+    children:
     #   - title: "PTRNG"
     #     url: /docs/quick-start-guide/
+      - title: "CHES 2024"
+        icon: "fas fa-fw fa-github"
+        url: https://github.com/opentrng/papers/tree/master/ches2024
