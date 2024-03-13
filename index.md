@@ -1,6 +1,5 @@
 ---
-title: ""
-masthead_title: "toto"
+title: "Home page"
 layout: single
 toc: true
 ---
@@ -9,7 +8,7 @@ toc: true
 Follow us on [Linkedin](https://www.linkedin.com/in/florian-pebay-peyroula/) to stay informed.
 {: .notice--success}
 
-# Introduction to OpenTRNG
+## Introduction
 
 Welcome to **OpenTRNG**! This project is dedicated to delivering the community open-source implementations of reference Physical True Random Number Generator (TRNG or PTRNG) based on ring oscillators. Through **OpenTRNG**, you have the ability to:
 
@@ -21,7 +20,7 @@ Welcome to **OpenTRNG**! This project is dedicated to delivering the community o
 > **OpenTRNG** is fully compatible with [OpenTitan](https://opentitan.org), our PTRNG can be used as input for OpenTitan's hardware IP blocks. Please find more information in the hardware section.
 {: .notice--info}
 
-# Why OpenTRNG?
+## Why OpenTRNG?
 
 The objective of **OpenTRNG** is to offer reference architectures of ring-oscillator based True Random Number Generators (TRNG), also known as PTRNG, to the community. With the advancement of certification standards like [BSI AIS20/31](https://www.bsi.bund.de/dok/randomnumbergenerators) (used in the Common Criteria) and [NIST SP 800-90B](https://csrc.nist.gov/pubs/sp/800/90/b/final), the stochastic model of the entropy source is increasingly crucial in relation to validating statistical tests on output data. Here, we publish straightforward yet effective entropy sources for PTRNG to facilitate the validation of their stochastic models across various FPGA and ASIC targets.
 

@@ -4,7 +4,7 @@ url: "https://opentrng.org"
 description: "This project is dedicated to delivering the community open-source implementations of reference Physical TRNG."
 repository: "opentrng/ptrng"
 
-breadcrumbs: true
+breadcrumbs: false
 show_date: false
 search: true
 
@@ -23,6 +23,8 @@ footer:
 plugins:
   - jekyll-include-cache
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 

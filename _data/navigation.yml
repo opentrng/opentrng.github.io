@@ -3,8 +3,8 @@ main:
     url: /
   # - title: "Documentation"
   #   url: /docs/
-  # - title: "Papers"
-  #   url: /papers/
+  - title: "Publications"
+    url: /publications
   # - title: "About"
   #   url: /about/
   # - title: "Contact"
@@ -26,5 +26,4 @@ sidebar:
     #   - title: "PTRNG"
     #     url: /docs/quick-start-guide/
       - title: "CHES 2024"
-        icon: "fas fa-fw fa-github"
         url: https://github.com/opentrng/papers/tree/master/ches2024
