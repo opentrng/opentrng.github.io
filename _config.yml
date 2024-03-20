@@ -4,9 +4,9 @@ url: "https://opentrng.org"
 description: "This project is dedicated to delivering the community open-source implementations of reference Physical TRNG."
 repository: "opentrng/ptrng"
 
-breadcrumbs: false
+breadcrumbs: true
 show_date: false
-search: true
+
 
 footer:
   links:
@@ -28,6 +28,9 @@ plugins:
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+search: true
+search_full_content: true
+search_provider: lunr
 lunr:
   search_within_pages: true
 

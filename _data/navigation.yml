@@ -1,29 +1,30 @@
 main:
   - title: "Home"
     url: /
-  # - title: "Documentation"
-  #   url: /docs/
+  - title: "Documentation"
+    url: /docs
   - title: "Publications"
     url: /publications
-  # - title: "About"
-  #   url: /about/
-  # - title: "Contact"
-  #   url: /contact/
+  - title: "Contributors"
+    url: /contributors
+  - title: "Contact"
+    url: /contact
 
 sidebar:
-  # - title: Documentation
-    # children:
-    #   - title: "Quick-Start Guide"
-    #     url: /docs/quick-start-guide/
-    #   - title: "Structure"
-    #     url: /docs/structure/
-    #   - title: "Installation"
-    #     url: /docs/installation/
-    #   - title: "Upgrading"
-    #     url: /docs/upgrading/
+  - title: Documentation
+    url: /docs
+    children:
+      - title: "Emulator"
+        url: /docs/emulator
+      - title: "Hardware"
+        url: /docs/hardware
+      - title: "Remote control"
+        url: /docs/remote
+      - title: "Analysis"
+        url: /docs/analysis
   - title: Source code
     children:
-    #   - title: "PTRNG"
-    #     url: /docs/quick-start-guide/
+      - title: "PTRNG"
+        url: https://github.com/opentrng/ptrng
       - title: "CHES 2024"
         url: https://github.com/opentrng/papers/tree/master/ches2024
