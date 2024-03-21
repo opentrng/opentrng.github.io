@@ -62,7 +62,10 @@ $ python autocorrelation.py -b 8 -d 100 -t "Plot title" coso.bin autocorr.png
 This example plots the autocorrelation of the signal in a maximum lag of 100 samples of 8 bits each.
 
 <!-- ## Howtos and recipies -->
+<!-- TODO -->
 
 <!-- ### How to estimate thermal and flicker noise amplitude factors -->
+<!-- TODO -->
 
 <!-- ### How to run standardized test -->
+<!-- TODO -->

@@ -49,6 +49,9 @@ The _COherent Sampling Oscillator_ (COSO) TRNG samples directly `RO1` with `RO0`
 
 The COSO architecture benefits from small footprint, a relevant output rate and has an intrinsic failure alarm. However, the COSO needs the frequencies ratio to be controlled.
 
+<!-- ### Ring-oscillator place and route constraints -->
+<!-- TODO -->
+
 ### Dependencies
 
 OpenTRNG projects depends on the following submodules:
@@ -174,3 +177,4 @@ $ python generate.py -vendor xilinx -luts 4 -x 12 -y 102 -maxwidth 15 -maxheight
 ```
 
 <!-- ## OpenTitan compatibility -->
+<!-- TODO -->
