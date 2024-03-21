@@ -15,6 +15,16 @@ Welcome to **OpenTRNG** the open-source TRNG! This project is dedicated to deliv
 
 <!-- > **OpenTRNG** is fully compatible with [OpenTitan](https://opentitan.org), our PTRNG can be used as input for OpenTitan's hardware IP blocks. Please find more information in the hardware section.
 {: .notice--info} -->
+<!-- TODO -->
+
+## Disclaimer
+
+The **OpenTRNG** project implements reference TRNG or PTRNG implementations as found in the scientific litterature, the source code is made available for accademic purposes only. As the compliance with verification and certification standards cannot be guarantee, it shall not be deployed "as is" in a product.
+
+> Please be aware that any misuse or unintended application of this project is beyond the responsibility of CEA.
+{: .notice--danger}
+
+If you plan to integrate a Random Number Generator (RNG) into a product, feel free to [contact us](contact).
 
 ## Why OpenTRNG?
 

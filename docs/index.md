@@ -4,6 +4,8 @@ layout: single
 toc: true
 ---
 
+This section provides user and developer documentation for **OpenTRNG** the open-source TRNG.
+
 ## Repository organization
 
 Take a look at [repository](https://github.com/opentrng/ptrng) organization below and, based on your requirements, navigate to the relevant directory to begin using **OpenTRNG**. The repository structure contains these main folders:
