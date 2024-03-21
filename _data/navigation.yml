@@ -18,6 +18,8 @@ sidebar:
         url: /docs/emulator
       - title: "Hardware"
         url: /docs/hardware
+      - title: "Register map"
+        url: /docs/registers
       - title: "Remote control"
         url: /docs/remote
       - title: "Analysis"

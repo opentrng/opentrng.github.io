@@ -68,12 +68,12 @@ $ python muro.py -size 10000 -freq 111e6 98e6 109e6 120e6 -div 200 muro.txt
 In a simpler configuration, the [COSO](hardware/#coso) requires only two ring-oscillator frequencies as input. To generate a stream of 10,000 bits with a [COSO](hardware/#coso) operating at 121MHz and 122MHz, use the following command:
 
 ```
-$ python [COSO](hardware/#coso).py -size 10000 -freq0 121e6 -freq1 122e6 [COSO](hardware/#coso).txt
+$ python coso.py -size 10000 -freq0 121e6 -freq1 122e6 coso.txt
 ```
 
 Below is an illustration of the raw random output for the [COSO](hardware/#coso).
 
-![An example of raw binary output for the [COSO](hardware/#coso)](/assets/images/[COSO](hardware/#coso)rawbinary.png)
+![An example of raw binary output for the COSO](/assets/images/cosorawbinary.png)
 
 Optionnaly, as explained in the [previous section](#emulate-noisy-ring-oscillators), noise amplitudes `a1` and `a2` can be specified for custom thermal and flicker noise model.
 

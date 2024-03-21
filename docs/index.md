@@ -22,7 +22,7 @@ In order to fully take benefit of **OpenTRNG**, you will need: python 3, an HDL 
 To get the required installation of Python 3, please install the following packages:
 
 ```
-sudo apt install python3 python3-venv python3-dev
+$ sudo apt install python3 python3-venv python3-dev
 ```
 
 Create a virtual environment `$ python3 -m venv .venv` activate the venv `$ source .ven/bin/activate` and install required packages with `$ pip install -r requirements.txt`. For other Python environment or package managers (like `conda`), all required modules are listed in `requirements.txt`.
