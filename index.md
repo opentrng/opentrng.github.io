@@ -11,7 +11,7 @@ Welcome to **OpenTRNG** the open-source TRNG! This project is dedicated to deliv
 1. [Emulate noisy ring oscillators](/docs/emulator/#emulate-noisy-ring-oscillators)
 2. [Emulate raw random number](/docs/emulator/#emulate-raw-random-numbers)
 3. [Simulate](/docs/hardware/#simulate-hdl-sources), [compile](/docs/hardware/#compile-for-fpga) and [run](/docs/remote) the PTRNG on hardware
-4. [Analyze and evaluate their outcomes](/docs/analysis/#analyze-and-evaluate-outputs)
+4. [Analyze and evaluate the random outcomes](/docs/analysis/#analyze-and-evaluate-outputs)
 
 <!-- > **OpenTRNG** is fully compatible with [OpenTitan](https://opentitan.org), our PTRNG can be used as input for OpenTitan's hardware IP blocks. Please find more information in the hardware section.
 {: .notice--info} -->

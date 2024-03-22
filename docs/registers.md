@@ -29,9 +29,10 @@ Base address: 0x00000000
 | [ID](#id)                | 0x0000     | OpenTRNG's PTRNG identification register for UID and revision number. |
 | [CONTROL](#control)      | 0x0004     | Global control register for the OpenTRNG's PTRNG |
 | [RING](#ring)            | 0x0008     | Ring-oscillator enable register (enable bits are active at `'1'`). |
-| [FREQ](#freq)            | 0x000c     | Frequency counter control register. |
-| [FIFOCTRL](#fifoctrl)    | 0x0010     | Control register for the FIFO to read the PTRNG random data output |
-| [FIFODATA](#fifodata)    | 0x0014     | Data register for the FIFO to read the PTRNG random data output |
+| [FREQCOUNT](#freqcount)  | 0x000c     | Frequency counter control register. |
+| [FREQDIVIDER](#freqdivider) | 0x0010     | Clock divider register, applies on oscillator RO0 |
+| [FIFOCTRL](#fifoctrl)    | 0x0014     | Control register for the FIFO to read the PTRNG random data output |
+| [FIFODATA](#fifodata)    | 0x0018     | Data register for the FIFO to read the PTRNG random data output |
 
 ## ID
 
@@ -80,7 +81,7 @@ Reset value: 0x00000000
 
 Back to [Register map](#register-map-summary).
 
-## FREQ
+## FREQCOUNT
 
 Frequency counter control register.
 
@@ -100,11 +101,26 @@ Reset value: 0x00000000
 
 Back to [Register map](#register-map-summary).
 
+## FREQDIVIDER
+
+Clock divider register, applies on oscillator RO0
+
+Address offset: 0x0010
+
+Reset value: 0x00000000
+
+
+| Name             | Bits   | Mode            | Reset      | Description |
+| :---             | :---   | :---            | :---       | :---        |
+| VALUE            | 31:0   | rw              | 0x00000000 | Clock divider value (1 means no division, 2 division by two, ...) |
+
+Back to [Register map](#register-map-summary).
+
 ## FIFOCTRL
 
 Control register for the FIFO to read the PTRNG random data output
 
-Address offset: 0x0010
+Address offset: 0x0014
 
 Reset value: 0x00000000
 
@@ -124,7 +140,7 @@ Back to [Register map](#register-map-summary).
 
 Data register for the FIFO to read the PTRNG random data output
 
-Address offset: 0x0014
+Address offset: 0x0018
 
 Reset value: 0x00000000
 
