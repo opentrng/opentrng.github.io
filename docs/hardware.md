@@ -154,7 +154,7 @@ Some part of the design is generated with scripts (eg. [register map](#register-
 
 The PTRNG block exposes several configuration, status and data registers as ports of the entity. These registers are wrapped into a register map, that allows to access the registers from the PC with simple read and write operations. All the code (target side and PC side) is generated with [Corsair](https://github.com/esynr3z/corsair), taking as input the `registers.yml` configuration file located in `hardware/config/registers`.
 
-This page summarizes the [register map adresses](registers).
+The register map specification is available [here in the PTRNG repository](https://github.com/opentrng/ptrng/blob/master/hardware/config/registers/regmap.md).
 
 #### Digital noise configuration
 
