@@ -8,7 +8,7 @@ This page summarizes the hardware architecture and gives help for [HDL simulatio
 
 ## Hardware architecture
 
-As illustrated in figure below, the `top.vhd` architecture contains the PTRNG including the [digital noise source](#digital-noise-source) (more information on [its configuration](digital-noise-configuration)).
+As illustrated in figure below, the `top.vhd` architecture contains the PTRNG including the [digital noise source](#digital-noise-source) (more information on [its configuration](#digital-noise-configuration)).
 
 ![Top architecture](/assets/images/top.png)
 

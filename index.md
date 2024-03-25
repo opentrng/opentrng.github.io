@@ -8,10 +8,10 @@ toc: true
 
 Welcome to **OpenTRNG** the open-source TRNG! This project is dedicated to delivering the community open-source implementations of reference Physical True Random Number Generator (TRNG or PTRNG) based on ring oscillators. Through **OpenTRNG**, you have the ability to:
 
-1. [Emulate noisy ring oscillators](/docs/emulator/#emulate-noisy-ring-oscillators)
-2. [Emulate raw random number](/docs/emulator/#emulate-raw-random-numbers)
-3. [Simulate](/docs/hardware/#simulate-hdl-sources), [compile](/docs/hardware/#compile-for-fpga) and [run](/docs/remote) the PTRNG on hardware
-4. [Analyze and evaluate the random outcomes](/docs/analysis/#analyze-and-evaluate-outputs)
+1. [Emulate noisy ring oscillators](docs/emulator#emulate-noisy-ring-oscillators)
+2. [Emulate raw random number](docs/emulator#emulate-raw-random-numbers)
+3. [Simulate](docs/hardware#simulate-hdl-sources), [compile](docs/hardware#compile-for-fpga) and [run](docs/remote) the PTRNG on hardware
+4. [Analyze and evaluate the random outcomes](docs/analysis#analyze-and-evaluate-outputs)
 
 <!-- > **OpenTRNG** is fully compatible with [OpenTitan](https://opentitan.org), our PTRNG can be used as input for OpenTitan's hardware IP blocks. Please find more information in the hardware section.
 {: .notice--info} -->
@@ -34,9 +34,9 @@ In RO-based True Random Number Generators (TRNGs), the RO serves as the entropy 
 
 As of now, **OpenTRNG** includes the following reference sampling architectures:
 
-* Elementary based Ring Oscilator ([ERO](docs/hardware/#ero)),
-* Multi Ring Oscilator ([MURO](docs/hardware/#muro)),
-* Coherent Sampling Ring Oscilator ([COSO](docs/hardware/#coso)).
+* Elementary based Ring Oscilator ([ERO](docs/hardware#ero)),
+* Multi Ring Oscilator ([MURO](docs/hardware#muro)),
+* Coherent Sampling Ring Oscilator ([COSO](docs/hardware#coso)).
 
 ## License and contributions
 

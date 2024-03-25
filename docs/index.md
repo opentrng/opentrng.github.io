@@ -10,9 +10,9 @@ This section provides user and developer documentation for **OpenTRNG** the open
 
 Take a look at [repository](https://github.com/opentrng/ptrng) organization below and, based on your requirements, navigate to the relevant directory to begin using **OpenTRNG**. The repository structure contains these main folders:
 
-* `analysis`: contains the tools for the [analysis](analysis/#analyze-and-evaluate-outputs) of the resulting random binary sequences (such as entropy estimators and auto-correlations),
-* `emulator`: includes the [ring oscillator time series emulator](emulator/#emulate-noisy-ring-oscillators) and the [raw random number emulators](emulator/#emulate-raw-random-numbers),
-* `hardware`: encloses HDL sources for [simulation](hardware/#simulate-hdl-sources) and [FPGA implementation](hardware/#compile-for-fpga) of the PTRNG,
+* `analysis`: contains the tools for the [analysis](analysis#analyze-and-evaluate-outputs) of the resulting random binary sequences (such as entropy estimators and auto-correlations),
+* `emulator`: includes the [ring oscillator time series emulator](emulator#emulate-noisy-ring-oscillators) and the [raw random number emulators](emulator#emulate-raw-random-numbers),
+* `hardware`: encloses HDL sources for [simulation](hardware#simulate-hdl-sources) and [FPGA implementation](hardware#compile-for-fpga) of the PTRNG,
 * `remote`: include scripts for [remote control](remote) the **OpenTRNG** FPGA target from a PC.
 
 ## Prerequisites
