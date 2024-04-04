@@ -21,7 +21,7 @@ The register map is required to:
 
 ### Digital noise source
 
-The digital noise source is mainly composed of a bank of 2 [ring-osillators](#ring-oscillators) a least and a [digitizer](#digital-noise-source) block responsible to sample the relative phase noise of the oscillators.
+The digital noise source is mainly composed of a bank of 2 [ring-oscillators](#ring-oscillators) a least and a [digitizer](#digital-noise-source) block responsible to sample the relative phase noise of the oscillators.
 
 #### Ring-oscillators
 

@@ -41,7 +41,7 @@ The distributions of periods is given in the figure below as an example (see [an
 
 ![500MHz noisy ring oscillator periods distribution (fs)](/assets/images/rodistribution.png)
 
-By default thermal and flicker noise amplitude coefficients respectively `a1` and `a2` were measured for 500MHz ring-oscillators fabricated on an industrial 28nm FD-SOI (Fully Depleted [Silicon on Insulator](https://en.wikipedia.org/wiki/Silicon_on_insulator)) technology. Optionnaly, noise amplitudes `a1` and `a2` can be specified for custom thermal and flicker noise model. As instance, with measured coefficients for a ringo at 100MHz in a Xilinx Artix7 FPGA:
+By default thermal and flicker noise amplitude coefficients respectively `a1` and `a2` were measured for 500MHz ring-oscillators fabricated on an industrial 28nm FD-SOI (Fully Depleted [Silicon on Insulator](https://en.wikipedia.org/wiki/Silicon_on_insulator)) technology. Optionally, noise amplitudes `a1` and `a2` can be specified for custom thermal and flicker noise model. As instance, with measured coefficients for a ringo at 100MHz in a Xilinx Artix7 FPGA:
 
 ```
 $ python ro.py -size 10e6 -freq 100e6 -a1 1.42e-13 -a2 1.15e-25 ro.txt
