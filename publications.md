@@ -4,6 +4,63 @@ layout: single
 toc: true
 ---
 
+## Publication at DTTIS 2024
+
+**Title**: [OpenTRNG: an open-source initiative for ring-oscillator based TRNGs](https://ieeexplore.ieee.org/document/10780212)
+
+**Authors**:
+- [Florian PEBAY-PEYROULA](contributors#florian-pebay-peyroula)
+- [Licinius BENEA](contributors#licinius-benea)
+- [Mikael CARMONA](contributors#mikael-carmona)
+- [Romain WACQUEZ](contributors#romain-wacquez)
+
+**Abstract:** OpenTRNG initiative introduces an open-source framework for physical True Random Number Generators (TRNG), focusing on ring-oscillator-based architectures. This project offers a comprehensive toolkit comprising reference designs, emulation tools, and analytical tools aiming at facilitating the development and characterization of hardware TRNG implementations. Key components include emulators capable of simulating noisy ring oscillators and digital noise sources, hardware descriptions for FPGA implementations, and analytical tools for assessing randomness metrics such as variance, entropy and autocorrelation. By providing accessible resources and fostering collaboration within the community, OpenTRNG aims to accelerate the advancement and validation of TRNG architectures at different technology nodes and at the highest level of security. It also seeks to promote good design practices, methodology, and reproducibility in the field of random number generation.
+
+Bibtex reference:
+```
+@inproceedings{pebay2024,
+  author={Pebay-Peyroula, Florian and Benea, Licinius-Pompiliu and Carmona, Mikael and Wacquez, Romain},
+  booktitle={2024 IEEE International Conference on Design, Test and Technology of Integrated Systems (DTTIS)}, 
+  title={OpenTRNG: an open-source initiative for ring-oscillator based TRNGs}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Ring oscillators;Emulation;Collaboration;Throughput;Hardware;Entropy;Reliability;Security;Random number generation;Field programmable gate arrays;TRNG;PTRNG;FPGA;ASIC;Ring-oscillator},
+  doi={10.1109/DTTIS62212.2024.10780212}
+}
+```
+
+## Publication in WiPiEC Journal (DSD 2024)
+
+**Title**: [COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology](https://wipiec.digitalheritage.me/index.php/wipiecjournal/article/view/60)
+
+**Authors**:
+- [Licinius BENEA](contributors#licinius-benea)
+- [Florian PEBAY-PEYROULA](contributors#florian-pebay-peyroula)
+- [Mikael CARMONA](contributors#mikael-carmona)
+- [Romain WACQUEZ](contributors#romain-wacquez)
+
+**Abstract:** This work presents a proof of concept of the implementation of a Coherent Sampling Ring Oscillator TRNG (COSO-TRNG) using the Fully Depleted Silicon On Insulator (FD-SOI) technology. COSO-TRNG appears as one of the best structures optimizing the throughput per area trade-off and having a model for its entropy source. The back-biasing capability of the FD-SOI technology is proved here to be a very simple and efficient technique for the ring oscillator frequency calibration needed for the coherent sampling method. This is the first demonstration of feasibility of COSO-TRNG validated on ASIC FD22nm. A throughput of 3.36 Mbits/s was obtained, equivalent to results in the literature.True random number generator.
+
+Bibtex reference:
+```
+@article{benea2024,
+  title = {{COSOI}: {True} {Random} {Number} {Generator} {Based} on {Coherent} {Sampling} using the {FD}-{SOI} technology},
+  volume = {10},
+  copyright = {Copyright (c) 2024 Licinius Benea, Florian Pebay-Peyroula, Mikael Carmona, Romain Wacquez},
+  issn = {2980-7298},
+  number = {2},
+  urldate = {2024-12-13},
+  journal = {WiPiEC Journal - Works in Progress in Embedded Computing Journal},
+  author = {Benea, Licinius and Pebay-Peyroula, Florian and Carmona, Mikael and Wacquez, Romain},
+  month = aug,
+  year = {2024},
+  note = {Number: 2},
+  keywords = {Fully Depleted Silicon On Insulator}
+}
+```
+
 ## Publication at CHES 2024
 
 **Title**: [Impact of the Flicker Noise on the Ring Oscillator-based TRNGs](https://tches.iacr.org/index.php/TCHES/article/view/11450)
