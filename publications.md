@@ -23,8 +23,6 @@ Bibtex reference:
   booktitle={2024 IEEE International Conference on Design, Test and Technology of Integrated Systems (DTTIS)}, 
   title={OpenTRNG: an open-source initiative for ring-oscillator based TRNGs}, 
   year={2024},
-  volume={},
-  number={},
   pages={1-6},
   keywords={Ring oscillators;Emulation;Collaboration;Throughput;Hardware;Entropy;Reliability;Security;Random number generation;Field programmable gate arrays;TRNG;PTRNG;FPGA;ASIC;Ring-oscillator},
   doi={10.1109/DTTIS62212.2024.10780212}
@@ -46,7 +44,7 @@ Bibtex reference:
 Bibtex reference:
 ```
 @article{benea2024,
-  title = {{COSOI}: {True} {Random} {Number} {Generator} {Based} on {Coherent} {Sampling} using the {FD}-{SOI} technology},
+  title = {COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology},
   volume = {10},
   copyright = {Copyright (c) 2024 Licinius Benea, Florian Pebay-Peyroula, Mikael Carmona, Romain Wacquez},
   issn = {2980-7298},
