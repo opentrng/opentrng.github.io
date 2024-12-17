@@ -18,7 +18,7 @@ toc: true
 
 Bibtex reference:
 ```
-@inproceedings{pebay2024,
+@inproceedings{OpenTrngDTTIS2024,
   author={Pebay-Peyroula, Florian and Benea, Licinius-Pompiliu and Carmona, Mikael and Wacquez, Romain},
   booktitle={2024 IEEE International Conference on Design, Test and Technology of Integrated Systems (DTTIS)}, 
   title={OpenTRNG: an open-source initiative for ring-oscillator based TRNGs}, 
@@ -43,7 +43,7 @@ Bibtex reference:
 
 Bibtex reference:
 ```
-@article{benea2024,
+@article{CosoiDSD2024,
   title = {COSOI: True Random Number Generator Based on Coherent Sampling using the FD-SOI technology},
   volume = {10},
   copyright = {Copyright (c) 2024 Licinius Benea, Florian Pebay-Peyroula, Mikael Carmona, Romain Wacquez},
@@ -101,7 +101,7 @@ Bibtex reference:
 
 Bibtex reference:
 ```
-@inproceedings{9996678,
+@inproceedings{JitterDSD2022,
   author={Benea, L. and Carmona, M. and Pebay-Peyroula, F. and Wacquez, R.},
   booktitle={2022 25th Euromicro Conference on Digital System Design (DSD)}, 
   title={On the Characterization of Jitter in Ring Oscillators using Allan variance for True Random Number Generator Applications}, 
