@@ -8,16 +8,21 @@ This section provides user and developer documentation for **OpenTRNG** the open
 
 ## Repository organization
 
-Take a look at [repository](https://github.com/opentrng/ptrng) organization below and, based on your requirements, navigate to the relevant directory to begin using **OpenTRNG**. The repository structure contains these main folders:
+Refer to the [repository](https://github.com/opentrng/ptrng) structure below, and based on your requirements, navigate to the relevant directory to get started with **OpenTRNG**. The repository is organized into the following main folders:
 
 * `analysis`: contains the tools for the [analysis](analysis#analyze-and-evaluate-outputs) of the resulting random binary sequences (such as entropy estimators and auto-correlations),
 * `emulator`: includes the [ring oscillator time series emulator](emulator#emulate-noisy-ring-oscillators) and the [raw random number emulators](emulator#emulate-raw-random-numbers),
 * `hardware`: encloses HDL sources for [simulation](hardware#simulate-hdl-sources) and [FPGA implementation](hardware#compile-for-fpga) of the PTRNG,
-* `remote`: include scripts for [remote control](remote) the **OpenTRNG** FPGA target from a PC.
+* `remote`: include scripts for [remote control](remote) the **OpenTRNG** hardware target from a PC.
 
 ## Prerequisites
 
-In order to fully take benefit of **OpenTRNG**, you will need: python 3, an HDL simulator and an hardware (FPGA) tool-suite.
+In order to fully take benefit of **OpenTRNG**, you will need: Python 3, an HDL simulator and an hardware tool-suite (for FPGA or ASIC).
+
+**OpenTRNG** requires the following:
+- Python 3,
+- HDL simulator,
+- Hardware tool suite (for FPGA or ASIC).
 
 ### Python
 
@@ -27,17 +32,17 @@ To get the required installation of Python 3, please install the following packa
 $ sudo apt install python3 python3-venv python3-dev
 ```
 
-Create a virtual environment `$ python3 -m venv .venv` activate the venv `$ source .ven/bin/activate` and install required packages with `$ pip install -r requirements.txt`. For other Python environment or package managers (like `conda`), all required modules are listed in `requirements.txt`.
+Create a virtual environment `python3 -m venv .venv` activate the venv `source .ven/bin/activate` and install required packages with `pip install -r requirements.txt`. For other Python environment or package managers (like `conda`), all required modules are listed in `requirements.txt`.
 
 ### HDL simulator
 
-You can perform VHDL simulation for **OpenTRNG** blocks using [GHDL](https://github.com/ghdl/ghdl) or other various simulators such as QuestaSim. Ensure that the `ghdl` command (or other simulator command) is accessible in your path. Testbenches for simulation and verification are written in python with [cocotb](https://www.cocotb.org). The generated waves (`vcd` files) can be displayed with [GTKWave](https://sourceforge.net/projects/gtkwave).
+VHDL simulation for **OpenTRNG** blocks can be performed using [GHDL](https://github.com/ghdl/ghdl) or other simulators such as QuestaSim. Ensure that the `ghdl` command (or the appropriate simulator command) is accessible in your system's path. Testbenches for simulation and verification are written in Python using [cocotb](https://www.cocotb.org). The generated waveforms (`vcd` files) can be visualized with [GTKWave](https://sourceforge.net/projects/gtkwave).
 
-If you are not using `ghdl`, please refer to the file `hardware/sim/config.mk` to configure your own simulator for all the testbenches.
+If not using `ghdl`, refer to the `config.mk` file in the `hardware/sim` directory to configure your preferred simulator for all testbenches.
 
 ### Hardware
 
-If you want to use more than just the **OpenTRNG** emulators, you will need a hardware target.
+To use more than just the **OpenTRNG** emulators, a hardware target is required.
 
 #### Hardware target
 

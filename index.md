@@ -21,7 +21,7 @@ Welcome to **OpenTRNG** the open-source TRNG! This project is dedicated to deliv
 
 The **OpenTRNG** project implements reference TRNG or PTRNG implementations as found in the scientific litterature, the source code is made available for accademic purposes only. As the compliance with verification and certification standards cannot be guarantee, it shall not be deployed "as is" in a product.
 
-> Please be aware that any misuse or unintended application of this project is beyond the responsibility of CEA.
+> **OpenTRNG** is NOT a product! Please be aware that any misuse or unintended application of this project is beyond the responsibility of CEA.
 {: .notice--danger}
 
 If you plan to integrate a Random Number Generator (RNG) into a product, feel free to [contact us](contact).

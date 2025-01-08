@@ -4,13 +4,13 @@ layout: single
 toc: true
 ---
 
-The FPGA target can be connected to the PC through an UART. Convenient USB-UART port is provided with many development board such as for [Digilent Arty7](https://digilent.com/reference/programmable-logic/arty-a7/start).
+The FPGA target can be connected to the PC via UART. Many development boards, such as the [Digilent Arty7](https://digilent.com/reference/programmable-logic/arty-a7/start), include a convenient USB-to-UART port for this purpose.
 
 ## Establish connection to the hardware
 
-On Linux you must be in the group `dialout` or `plugdev` (depending on your distribution) to access the `/dev/ttyUSB*` device. The PySerial python module must be installed as detailled in the [requirement section](index#python).
+On Linux, access to the `/dev/ttyUSB*` device requires membership in the `dialout` or `plugdev` group, depending on the distribution. The PySerial Python module must also be installed, as detailed in the [requirements section](index#python).
 
-By default, the Python scripts open the `/dev/ttyUSB1` device, if your target is mapped to another peripheral, please copy the file `settings.py.in` to `settings.py` and modify the variable `tty` accordingly.
+By default, the Python scripts open the `/dev/ttyUSB1` device. If the target is mapped to a different peripheral, copy the `settings.py.in` file to `settings.py` and modify the `tty` variable accordingly.
 
 To test the connection to the target, use the script `ping.py` located in the directory `remote`.
 

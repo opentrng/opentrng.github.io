@@ -4,6 +4,8 @@ layout: single
 toc: true
 ---
 
+This page summarizes the scientific publications related to **OpenTRNG** and to the TRNG topic.
+
 ## Publication at DTTIS 2024
 
 **Title**: [OpenTRNG: an open-source initiative for ring-oscillator based TRNGs](https://ieeexplore.ieee.org/document/10780212)
