@@ -38,6 +38,10 @@ As of now, **OpenTRNG** includes the following reference sampling architectures:
 * Multi Ring Oscilator ([MURO](docs/hardware#muro)),
 * Coherent Sampling Ring Oscilator ([COSO](docs/hardware#coso)).
 
+## Acknowledgment
+
+This work is supported by the "France 2030" government investment plan managed by the French National Research Agency (ANR), under the project ARSENE (ANR-22-PECY0004).
+
 ## License and contributions
 
 The **OpenTRNG** project is distributed under the GNU GPLv3 license.
