@@ -6,6 +6,29 @@ toc: true
 
 This page summarizes the scientific publications related to **OpenTRNG** and to the TRNG topic.
 
+## Publication at HOST 2025
+
+**Title**: On the impact of metastability in jitter based TRNG
+
+**Authors**:
+- [Florian PEBAY-PEYROULA](contributors#florian-pebay-peyroula)
+- [Licinius BENEA](contributors#licinius-benea)
+- [Mikael CARMONA](contributors#mikael-carmona)
+- [Romain WACQUEZ](contributors#romain-wacquez)
+
+**Abstract:** Ring oscillator (RO)-based true random number generators (TRNGs) rely on phase noise to produce random bits. Certification standards, such as BSI AIS20/31 and NIST SP 800-90B, mandate or recommend, respectively, a stochastic model of the entropy source, typically incorporating thermal and optionally flicker noise contributions to phase noise. Common architectures for RO-based TRNGs include the Elementary RO (ERO) and Multi-RO (MURO) designs, both of which generate random bits by sampling unsynchronized ring oscillators using another oscillator. However, sampling unsynchronized signals can also induce metastability events in electronic circuits. While metastable bits are generated through a process that appears as random, they are not taken into account in the phase noise model hypothesis, thereby reducing confidence in the TRNG output's alignment with the stochastic model of its entropy source and, most probably, overestimating entropy. This paper investigates the influence of metastability on randomness generation in RO-based TRNGs. First, we evaluate the probability of metastable events in both ERO and MURO architectures, showing that a substantial fraction of generated bits deviate from the phase noise model due to metastability. Next, we analyze how this proportion of metastable bits limits the maximum achievable entropy for ERO and MURO. Finally, exploring design considerations mitigating the metastability impact for RO based TRNGs.
+
+Bibtex reference:
+```
+@inproceedings{MetastabilityHOST2025,
+  author={Pebay-Peyroula, Florian and Benea, Licinius-Pompiliu and Carmona, Mikael and Wacquez, Romain},
+  booktitle={2025 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)}, 
+  title={On the impact of metastability in jitter based TRNG}, 
+  year={2025},
+  keywords={TRNG;ring-oscillator;phase noise;jitter;metastability;FPGA;ASIC;ERO;MURO;COSO}
+}
+```
+
 ## Publication at DTTIS 2024
 
 **Title**: [OpenTRNG: an open-source initiative for ring-oscillator based TRNGs](https://ieeexplore.ieee.org/document/10780212)

@@ -26,6 +26,8 @@ sidebar:
     children:
       - title: "PTRNG"
         url: https://github.com/opentrng/ptrng
+      - title: "HOST 2025"
+        url: https://github.com/opentrng/papers/tree/master/host2025
       - title: "CHES 2024"
         url: https://github.com/opentrng/papers/tree/master/ches2024
       - title: "DTTIS 2024"
