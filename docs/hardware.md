@@ -78,7 +78,6 @@ OpenTRNG projects depends on the following submodules:
 
 | GitHub | Descrition |
 | :----- | :--------- |
-| [vhdl-extras](https://github.com/kevinpt/vhdl-extras) | Provides a set of standard and common VHDL entities. |
 | [fluart](https://github.com/marcj71/fluart) | The feature-less UART to provide communication between PC and target. |
 | [cmd_proc](https://github.com/marcj71/cmd_proc) | handle simple read-write adress/data packet processing on the UART. |
 
