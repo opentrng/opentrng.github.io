@@ -141,7 +141,7 @@ Scaffold script `generate_vivado_project.tcl` is provided to generate Xilinx Viv
 The boilerplate script `generate_vivado_project.tcl` is provided to generate Xilinx Vivado projects for any target. The tcl script is located in `hardware/target/fpga`. To generate the Vivado project `opentrng_arty_a7_35t.xpr` in the `arty_a7_35t` directory for the target `xc7a35ticsg324-1L`, use the following command:
 
 ```
-$ cd hardware/target/fpga
+$ cd hardware/target/fpga/xilinx
 $ vivado -mode tcl -source generate_vivado_project.tcl -tclargs arty_a7_35t xc7a35ticsg324-1L
 ```
 
