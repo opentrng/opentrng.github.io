@@ -11,7 +11,7 @@ The `emulator` directory includes all Python files dedicated to the emulation of
 > For detailed information on script **parameters**, use the `-h` option
 {: .notice--info}
 
-The `emulator` directory also includes a [jupyter notebook](https://jupyter.org) named `playground.ipynb`, providing an interactive environment to explore and utilize the emulator's internal routines.
+The `emulator` directory also includes a [jupyter notebook](https://jupyter.org) named `playground.ipynb`, providing an interactive environment to explore and utilize the emulator's routines.
 
 ## Emulate noisy ring oscillators
 
@@ -41,7 +41,7 @@ The distributions of periods is given in the figure below as an example (see [an
 
 ![100MHz noisy ring oscillator periods distribution (fs)](/assets/images/rodistribution.png)
 
-By default, the thermal and flicker noise amplitude coefficients, `a1` and `a2`, are calibrated for a ring oscillator operating at 100 MHz on a Xilinx Artix-7 FPGA. Optionally, these coefficients can be customized to define a specific thermal and flicker noise model. For example, using measured coefficients from a 500 MHz ring oscillator fabricated on a 28nm industrial FD-SOI (Fully Depleted [Silicon on Insulator](https://en.wikipedia.org/wiki/Silicon_on_insulator)) process:
+By default, the thermal and flicker noise amplitude coefficients, `a1` and `a2`, are calibrated for a ring oscillator operating at 100 MHz on a Xilinx Artix-7 FPGA. Optionally, these coefficients can be customized to define a specific thermal and flicker noise model. For example, using coefficients from a 500 MHz ring oscillator measured on a 28nm industrial FD-SOI (Fully Depleted [Silicon on Insulator](https://en.wikipedia.org/wiki/Silicon_on_insulator)) technology node:
 
 ```
 $ python ro.py -size 10e6 -freq 100e6 -a1 1.334e-14 -a2 7.985e-09 ro.txt
@@ -51,17 +51,17 @@ $ python ro.py -size 10e6 -freq 100e6 -a1 1.334e-14 -a2 7.985e-09 ro.txt
 
 Raw random numbers (RRN) can be emulated using Python scripts based on the [noisy ring-oscillator emulation](#emulate-noisy-ring-oscillators) described in the previous section.
 
-By specifying the frequencies of the target ring oscillators and selecting a sampling architecture — [ERO](hardware#ero), [MURO](hardware#muro), or CO[COSO](hardware#coso) — the script will generate a file containing the raw random output.
+By specifying the frequencies of the target ring oscillators and selecting a sampling architecture — [ERO](hardware#ero), [MURO](hardware#muro), or [COSO](hardware#coso) — the script will generate a file containing the raw random output.
 
 ### Elementary RO based TRNG
 
-For instance, to generate a stream of 1,000,000 bits using the [ERO](hardware#ero) architecture, with the first ring oscillator operating at 100 MHz and a divisor of 1,000 sampling the second ring oscillator at 101 Hz, execute the following command:
+For instance, to generate a stream of 1,000,000 bits using the [ERO](hardware#ero) architecture, with the first ring oscillator operating at 100 MHz and a divisor of 1,000 sampling the second ring oscillator at 101 Hz, run the following command:
 
 ```
 $ python ero.py -size 1e6 -freq0 100e6 -freq1 101e6 -div 1000 ero.txt
 ```
 
-Executing this command produces the following output:
+This command produces the following output:
 
 ```
 Number of bits to generate: 1.00e+06
@@ -82,7 +82,7 @@ The [MURO](hardware#muro) utilizes multiple ring oscillators. For example, to ge
 $ python muro.py -size 1e6 -freq 100e6 99e6 101e6 -div 1000 muro.txt
 ```
 
-Running this command generates the following output:
+This command produces the following output:
 
 ```
 Number of bits to generate: 1.00e+06
@@ -104,7 +104,7 @@ In a more straightforward configuration, the [COSO](hardware#coso) only requires
 $ python coso.py -size 1e6 -freq0 121e6 -freq1 122e6 coso.txt
 ```
 
-Executing this command produces the following output:
+This command produces the following output:
 
 ```
 Number of bits to generate: 1.00e+06
@@ -122,6 +122,6 @@ Below is an illustration of the raw random output for the [COSO](hardware#coso).
 
 ![An example of raw binary output for the COSO](/assets/images/cosorawbinary.png)
 
-Optionnaly, as explained in the [previous section](#emulate-noisy-ring-oscillators), noise amplitudes `a1` and `a2` can be specified for other hardware target with different thermal and flicker noise model.
+Optionnaly, as explained in the [previous section](#emulate-noisy-ring-oscillators), noise amplitudes `a1` and `a2` can be modified accordingly to your own hardware target with custom thermal and flicker noise model.
 
 The RRN emulators are used as golden model for [HDL simulation](hardware#simulate-hdl-sources).

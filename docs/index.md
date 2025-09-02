@@ -4,25 +4,20 @@ layout: single
 toc: true
 ---
 
-This section provides user and developer documentation for **OpenTRNG** the open-source TRNG.
+This section provides user and developer documentation for **OpenTRNG** the open-source TRNG framework.
 
 ## Repository organization
 
-Refer to the [repository](https://github.com/opentrng/ptrng) structure below, and based on your requirements, navigate to the relevant directory to get started with **OpenTRNG**. The repository is organized into the following main folders:
+The OpenTRNG [repository](https://github.com/opentrng/ptrng) is organized into the following main directories:
 
-* `analysis`: contains the tools for the [analysis](analysis#analyze-and-evaluate-outputs) of the resulting random binary sequences (such as entropy estimators and auto-correlations),
-* `emulator`: includes the [ring oscillator time series emulator](emulator#emulate-noisy-ring-oscillators) and the [raw random number emulators](emulator#emulate-raw-random-numbers),
+* `analysis`: contains the tools (such as entropy estimators and auto-correlations) for the [analysis](analysis#analyze-and-evaluate-outputs) of the resulting random binary sequences,
+* `emulator`: includes the ring oscillator [time series emulator](emulator#emulate-noisy-ring-oscillators) and the [raw random number emulators](emulator#emulate-raw-random-numbers),
 * `hardware`: encloses HDL sources for [simulation](hardware#simulate-hdl-sources) and [FPGA implementation](hardware#compile-for-fpga) of the PTRNG,
-* `remote`: include scripts for [remote control](remote) the **OpenTRNG** hardware target from a PC.
+* `remote`: include scripts for [remote controlling](remote) the **OpenTRNG** hardware target from a PC.
 
 ## Prerequisites
 
-In order to fully take benefit of **OpenTRNG**, you will need: Python 3, an HDL simulator and an hardware tool-suite (for FPGA or ASIC).
-
-**OpenTRNG** requires the following:
-- Python 3,
-- HDL simulator,
-- Hardware tool suite (for FPGA or ASIC).
+To take full advantage of **OpenTRNG**, you will need: Python 3, an HDL simulator, and a hardware toolchain (for FPGA or ASIC). Running on Ubuntu Linux is recommended, though it is compatible with other Linux distributions as well as Windows.
 
 ### Python
 
@@ -42,11 +37,11 @@ If not using `ghdl`, refer to the `config.mk` file in the `hardware/sim` directo
 
 ### Hardware
 
-To use more than just the **OpenTRNG** emulators, a hardware target is required.
+To go beyond the use of **OpenTRNG** emulators, you will need a hardware target. This allows you to run the provided HDL implementations on an FPGA (as instance), interact with the TRNG in real conditions, and generate random numbers directly from the physical entropy source.
 
 #### Hardware target
 
-**OpenTRNG** comes with direct compatibility to [Digilent Arty7 FPGA 35T](https://digilent.com/reference/programmable-logic/arty-a7/start) board. It can be ordered from [Farnell](https://farnell.com), [Digikey](https://www.digikey.com), [Mouser](https://www.mouser.fr), etc. Other FPGA targets and boards can be easily supported, please find more information on the [hardware](hardware#fpga-targets) documentation page.
+**OpenTRNG** comes with direct compatibility to [Digilent Arty7 FPGA](https://digilent.com/reference/programmable-logic/arty-a7/start) board. It can be ordered from [Farnell](https://farnell.com), [Digikey](https://www.digikey.com), [Mouser](https://www.mouser.fr), etc. Other FPGA targets and boards can be easily supported, please find more information on the [hardware](hardware#fpga-targets) documentation page.
 
 ![image-center](/assets/images/arty7.png)
 
