@@ -48,8 +48,8 @@ The digitizer comes with the following sampling architectures: [ERO](#ero), [MUR
 
 ##### ERO
 
-The _Elementary Ring-Oscillator_ (ERO) TRNG is the simpliest sampling architecture. It instanciates two ring-oscillators:
-- `RO0` frequency is divided by factor K in order to accumulate jitter (i.e. phase noise),
+The _Elementary Ring-Oscillator_ (ERO) TRNG is the simpliest sampling architecture. It instanciates two ring-oscillators with same jitter (i.e. phase noise) characteristics:
+- `RO0` frequency is divided by factor K in order to accumulate jitter,
 - `RO1` that is sampled by the previously divided ring-oscillator.
 
 ![ERO sampling architecture](/assets/images/ero.png)
@@ -62,7 +62,7 @@ The _MUlti Ring-Oscillator_ (MURO) TRNG is designed to improve the entropy rate 
 
 ![MURO sampling architecture](/assets/images/muro.png)
 
-With lower accumulation time, the MURO benefits from higher throughput. However, instanciating multiple ring-oscillators increase the risk of locking phenomenon that would cancel all captured noise.
+With lower accumulation time, the MURO benefits from higher throughput. However, instanciating multiple ring-oscillators has a cost in terms of silicon area and increases the risk of locking phenomenon that would cancel all captured noise.
 
 ##### COSO
 
