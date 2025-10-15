@@ -4,7 +4,7 @@ layout: single
 toc: true
 ---
 
-This page summarizes the hardware architecture and gives help for [HDL simulation](#simulate-hdl-sources), [FPGA compilation](#compile-for-fpga) and [target programmation](#synthetize-place-route-and-program-device).
+This page summarizes the hardware architecture and gives help for [HDL simulation](#simulate-hdl-sources), [FPGA compilation](#compile-for-fpga) and [target programmation](#synthetize-place-route-and-program-device). The HDL code is available in both Verilog and VHDL languages, an equivalent proof is maintained with the help of Synopsys Formality.
 
 ## Hardware architecture
 

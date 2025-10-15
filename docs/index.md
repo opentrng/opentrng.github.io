@@ -31,7 +31,7 @@ Create a virtual environment `python3 -m venv .venv` activate the venv `source .
 
 ### HDL simulator
 
-VHDL simulation for **OpenTRNG** blocks can be performed using [GHDL](https://github.com/ghdl/ghdl) or other simulators such as QuestaSim. Ensure that the `ghdl` command (or the appropriate simulator command) is accessible in your system's path. Testbenches for simulation and verification are written in Python using [cocotb](https://www.cocotb.org). The generated waveforms (`vcd` files) can be visualized with [GTKWave](https://sourceforge.net/projects/gtkwave).
+All **OpenTRNG** blocks are ported to Verilog and VHDL. HDL can be simulated with [Verilator](https://www.veripool.org/verilator/), [GHDL](https://github.com/ghdl/ghdl) or any other simulators such as QuestaSim. Ensure that the `verilator`, `ghdl`, or the appropriate simulator command is accessible in your system's path. Testbenches for simulation and verification are written in Python using [cocotb](https://www.cocotb.org). The generated waveforms (`vcd` files) can be visualized with [GTKWave](https://sourceforge.net/projects/gtkwave).
 
 If not using `ghdl`, refer to the `config.mk` file in the `hardware/sim` directory to configure your preferred simulator for all testbenches.
 
