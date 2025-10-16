@@ -6,8 +6,6 @@ toc: true
 
 The OpenTRNG project is actively maintained and developed by **CEA-Leti**. We welcome contributions and collaborations from both academic and industrial partners.
 
-## CEA-Leti
-
 ### Licinius BENEA
 
 ![image-left](/assets/images/avatar_lb.jpg){: .align-left}
@@ -39,11 +37,3 @@ Florian PEBAY-PEYROULA joined the CEA in 2003 as Engineer. His experience includ
 Romain WACQUEZ obtained his PhD degree in 2009 in physics and nanoelectronics from Aix-Marseille University and prepared with CEA Leti and ST Microelectronics. Since 2008 he has been working at CEA-Leti on nanoelectronics and FD-SOI technologies development. Since 2013 his research interests focus on security of embedded systems and the role of advanced silicon technologies in hardware security primitives.
 
 [<i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>Linkedin profile](https://www.linkedin.com/in/romain-wacquez/){: .btn .btn--inverse}
-
-## TRASNA Solutions
-
-![image-left](/assets/images/trasna_logo.jpg){: .align-left}
-
-[TRASNA Solutions](https://www.trasna.io) is a global company specializing in semiconductor, SIM, eSIM, SoC, and iSIM for the Internet of Things (IoT) and mobile-connected devices. TRASNA Solutions develops System on Chip products, embedded modules, SIM cards, cloud SIM platform, IoT eSIM remote manager, as well as cellular IoT modules offering mobile network connectivity as well as GNSS global positioning services. It has a unique product offer from Chip to Cloud for the IoT market.
-
-[<i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>Linkedin profile](https://www.linkedin.com/company/trasna-technologies/){: .btn .btn--inverse}
